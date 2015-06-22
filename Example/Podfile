@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YVSlideOutAnimation_Example', :exclusive => true do
+  pod "YVSlideOutAnimation", :path => "../"
+end
+
+target 'YVSlideOutAnimation_Tests', :exclusive => true do
+  pod "YVSlideOutAnimation", :path => "../"
+
+  
+end
