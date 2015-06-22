@@ -7,7 +7,6 @@
 //
 
 #import "YVView.h"
-#import <UIView+YVSlideOutAnimation.h>
 
 @implementation YVView
 

@@ -23,7 +23,7 @@ typedef NS_ENUM (NSInteger, YVSlideOutAnimationPosition) {
  */
 @interface UIView (YVSlideOutAnimation)
 
-/** 
+/**
  Property for delaying the animation between subviews. Can't be less than 0
  Simply set this property and use one of the yv_slideOutAnimationForAllSubviewsFromPosition: selectors to see the animation.
  If you want to remove stair-like effect - set this property to 0.
@@ -43,7 +43,7 @@ typedef NS_ENUM (NSInteger, YVSlideOutAnimationPosition) {
  */
 - (void)yv_slideOutAnimationForAllSubviewsFromPosition:(YVSlideOutAnimationPosition)animationPosition reversedOrder:(BOOL)reversed;
 
-/** 
+/**
  Implement stair-like animation effect on subviews with custom parameters.
  @param animationPosition Position from where to animate the view
  @param duration Animation duration time
@@ -53,7 +53,7 @@ typedef NS_ENUM (NSInteger, YVSlideOutAnimationPosition) {
  */
 - (void)yv_slideOutAnimationForAllSubviewsFromPosition:(YVSlideOutAnimationPosition)animationPosition duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay slidingOffset:(CGFloat)offset reversedOrder:(BOOL)reversed;
 
-/** 
+/**
  Slide animation for any view
  @param animationPosition Position from where to animate the view
  @param duration Animation duration time

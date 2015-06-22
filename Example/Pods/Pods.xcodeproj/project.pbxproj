@@ -20,16 +20,16 @@
 		CF7F1958F78E9AA6C0FDDBEA /* YVSlideOutAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E77B2F2D0AC669A14FBDED2 /* YVSlideOutAnimation.bundle */; };
 		D9CB49B74EEAAF5D9D307658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
 		DE7B5AF3A8B36B0AB9465945 /* YVSlideOutAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 092CBBCB6070A348250407AD /* YVSlideOutAnimation.bundle */; };
-		EFB99DE81B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
-		EFB99DE91B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
-		EFB99DED1B37D22B005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
-		EFB99DEE1B37D22E005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
-		EFB99DEF1B37D22F005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
-		EFB99DF01B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
-		EFB99DF11B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
-		EFB99DF21B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
-		EFB99DF31B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
-		EFB99DF41B37D237005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EF86321C1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */; };
+		EF86321D1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */; };
+		EF86321E1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */; };
+		EF86321F1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */; };
+		EF8632201B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
+		EF8632211B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
+		EF8632221B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
+		EF8632231B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
+		EF8632241B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
+		EF8632251B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */; };
 		F26184FFC7D171C6DBB8CE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,9 +104,9 @@
 		E41B5C4B927FDC840289BD5F /* Pods-YVSlideOutAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVSlideOutAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		E93238867B7EED87D35C3FF1 /* Pods_YVSlideOutAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVSlideOutAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA75654DD5F1908C7B6F458 /* Pods-YVSlideOutAnimation_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Tests-environment.h"; sourceTree = "<group>"; };
+		EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YVSlideOutAnimation.h"; sourceTree = "<group>"; };
+		EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YVSlideOutAnimation.m"; sourceTree = "<group>"; };
 		EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig"; sourceTree = "<group>"; };
-		EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YVSlideOutAnimation.h"; sourceTree = "<group>"; };
-		EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YVSlideOutAnimation.m"; sourceTree = "<group>"; };
 		F73244067B3A9CDE01D33B20 /* YVSlideOutAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YVSlideOutAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F958AD78B871866FA01785F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Info.plist"; sourceTree = "<group>"; };
 		FA739AA3E8D31C39E8EAB829 /* Pods-YVSlideOutAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVSlideOutAnimation_Tests.modulemap"; sourceTree = "<group>"; };
@@ -253,8 +253,8 @@
 		C7A507387C96CFD6D6185BB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */,
-				EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */,
+				EF86321A1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h */,
+				EF86321B1B37D47400E62F44 /* UIView+YVSlideOutAnimation.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DE81B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				EF86321C1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */,
 				074DB60CA94B9E04DA7B6999 /* Pods-YVSlideOutAnimation_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +323,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DED1B37D22B005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				EF86321D1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */,
 				531D7ABBF83C030D8CDC9C61 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +332,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DEF1B37D22F005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				EF86321F1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */,
 				516A74ED6F88477705453114 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +341,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DEE1B37D22E005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				EF86321E1B37D47400E62F44 /* UIView+YVSlideOutAnimation.h in Headers */,
 				62C016950624281FE5586101 /* Pods-YVSlideOutAnimation_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,7 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA0C35A19AB5FFB69CE9737 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m in Sources */,
-				EFB99DF11B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632211B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF3A58B73856327A78DCBA9 /* Pods-YVSlideOutAnimation_Tests-dummy.m in Sources */,
-				EFB99DF21B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632231B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0888FE62B75A56E92D55EA02 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m in Sources */,
-				EFB99DF31B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632241B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DF41B37D237005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632251B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB99DF01B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632221B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D55C0A5D08D63C5CB04DFA /* Pods-YVSlideOutAnimation_Example-dummy.m in Sources */,
-				EFB99DE91B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+				EF8632201B37D47400E62F44 /* UIView+YVSlideOutAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

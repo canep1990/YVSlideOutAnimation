@@ -54,7 +54,7 @@ static CGFloat const YVDefaultAnimationOffset = 20;
     {
         [self yv_animateSubviewFromPosition:animationPosition subviews:subviewsArray duration:duration delay:delay slidingOffset:offset];
     }
-
+    
 }
 
 - (void)yv_animateSubviewsReversedFromPosition:(YVSlideOutAnimationPosition)animationPosition subviews:(NSArray *)subviewsArray duration:(NSTimeInterval)duration delay:(NSTimeInterval)delay slidingOffset:(CGFloat)offset
