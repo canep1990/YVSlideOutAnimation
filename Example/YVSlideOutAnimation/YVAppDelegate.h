@@ -3,7 +3,7 @@
 //  YVSlideOutAnimation
 //
 //  Created by CocoaPods on 06/22/2015.
-//  Copyright (c) 2014 Yury Voskresensky. All rights reserved.
+//  Copyright (c) 2015 Yury Voskresensky. All rights reserved.
 //
 
 @import UIKit;

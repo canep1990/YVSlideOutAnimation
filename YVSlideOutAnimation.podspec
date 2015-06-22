@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "YVSlideOutAnimation"
   s.version          = "0.1.0"
-  s.summary          = "A short description of YVSlideOutAnimation."
+  s.summary          = "Simple library for UIView slide out effect."
   s.description      = <<-DESC
-                       An optional longer description of YVSlideOutAnimation
+                       Simple UIView category for adding slide out animation. Inspired by animations used here: https://github.com/MartinRGB/GiftCard-iOS
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/YVSlideOutAnimation"
+  s.homepage         = "https://github.com/canep1990/YVSlideOutAnimation"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Yury Voskresensky" => "yriy.voskresenskiy@arsenalmedia.ru" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/YVSlideOutAnimation.git", :tag => s.version.to_s }
+  s.author           = { "Yury Voskresensky" => "canep1990@mail.ru" }
+  s.source           = { :git => "https://github.com/canep1990/YVSlideOutAnimation.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -36,3 +36,4 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+

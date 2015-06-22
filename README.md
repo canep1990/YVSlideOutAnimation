@@ -20,9 +20,11 @@ it, simply add the following line to your Podfile:
 pod "YVSlideOutAnimation"
 ```
 
+Or simply copy files UIView+YVSlideOutAnimation.h UIView+YVSlideOutAnimation.m to your project
+
 ## Author
 
-Yury Voskresensky, yriy.voskresenskiy@arsenalmedia.ru
+Yury Voskresensky, canep1990@mail.ru
 
 ## License
 

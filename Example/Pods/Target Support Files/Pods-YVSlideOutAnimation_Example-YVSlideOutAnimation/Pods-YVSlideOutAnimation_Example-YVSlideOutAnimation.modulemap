@@ -1,0 +1,6 @@
+framework module YVSlideOutAnimation {
+  umbrella header "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

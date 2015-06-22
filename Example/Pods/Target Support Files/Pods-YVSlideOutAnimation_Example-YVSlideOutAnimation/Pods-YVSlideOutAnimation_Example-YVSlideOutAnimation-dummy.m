@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_YVSlideOutAnimation_Example_YVSlideOutAnimation : NSObject
+@end
+@implementation PodsDummy_Pods_YVSlideOutAnimation_Example_YVSlideOutAnimation
+@end

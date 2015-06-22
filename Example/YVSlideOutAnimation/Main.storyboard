@@ -13,10 +13,34 @@
                         <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1" customClass="YVView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QpG-hn-biZ">
+                                <rect key="frame" x="40" y="28" width="520" height="71"/>
+                                <color key="backgroundColor" red="0.019607843140000001" green="0.56470588239999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="OGb-Dc-0cF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="La7-jQ-DgB">
+                                <rect key="frame" x="40" y="126" width="520" height="71"/>
+                                <color key="backgroundColor" red="0.52156862749999999" green="0.80784313730000001" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="apx-zB-ayV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QpG-hn-biZ" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="40" id="CnE-rR-Wl3"/>
+                            <constraint firstItem="La7-jQ-DgB" firstAttribute="top" secondItem="QpG-hn-biZ" secondAttribute="bottom" constant="27" id="NgN-uo-4Um"/>
+                            <constraint firstItem="La7-jQ-DgB" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="40" id="baI-Av-PkU"/>
+                            <constraint firstItem="QpG-hn-biZ" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="giN-s5-EAu"/>
+                            <constraint firstAttribute="trailing" secondItem="La7-jQ-DgB" secondAttribute="trailing" constant="40" id="m5q-1J-gwl"/>
+                            <constraint firstAttribute="trailing" secondItem="QpG-hn-biZ" secondAttribute="trailing" constant="40" id="v6u-KH-jp2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

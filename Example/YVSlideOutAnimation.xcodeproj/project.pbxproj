@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		96A1ED8BF11BCD16ADBE18FA /* Pods_YVSlideOutAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9499E41A3FE00BF6534948 /* Pods_YVSlideOutAnimation_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFB99DEC1B37D1EC005F3AB5 /* YVView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DEB1B37D1EC005F3AB5 /* YVView.m */; };
 		F95190D42DCD644B92466644 /* Pods_YVSlideOutAnimation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D50F40A4C8D60F665B8E9F /* Pods_YVSlideOutAnimation_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		D29F8DC2F6412CE222CC4F8D /* Pods-YVSlideOutAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVSlideOutAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVSlideOutAnimation_Tests/Pods-YVSlideOutAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5CC7307F868111613A30868 /* Pods-YVSlideOutAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVSlideOutAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVSlideOutAnimation_Example/Pods-YVSlideOutAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1C2E11B642233E3D248AFE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFB99DEA1B37D1EC005F3AB5 /* YVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVView.h; sourceTree = "<group>"; };
+		EFB99DEB1B37D1EC005F3AB5 /* YVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVView.m; sourceTree = "<group>"; };
 		F2D50F40A4C8D60F665B8E9F /* Pods_YVSlideOutAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVSlideOutAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +138,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YVViewController.h */,
 				6003F5A6195388D20070C39A /* YVViewController.m */,
+				EFB99DEA1B37D1EC005F3AB5 /* YVView.h */,
+				EFB99DEB1B37D1EC005F3AB5 /* YVView.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YVAppDelegate.m in Sources */,
+				EFB99DEC1B37D1EC005F3AB5 /* YVView.m in Sources */,
 				6003F5A7195388D20070C39A /* YVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

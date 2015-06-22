@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074DB60CA94B9E04DA7B6999 /* Pods-YVSlideOutAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E59B9DAFA9C2C711F9E7083 /* Pods-YVSlideOutAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0888FE62B75A56E92D55EA02 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D2A44CA4E36995A43ABCC /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m */; };
+		3633705984A93A5A8CF36118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
+		516A74ED6F88477705453114 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B706D683515C27A1BAEC789D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531D7ABBF83C030D8CDC9C61 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E4BF85496C09B892BE3C46 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C016950624281FE5586101 /* Pods-YVSlideOutAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB6FF1DF68AF5FB9E319AFD /* Pods-YVSlideOutAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D55C0A5D08D63C5CB04DFA /* Pods-YVSlideOutAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2251A8DFFAAB3C2335B921 /* Pods-YVSlideOutAnimation_Example-dummy.m */; };
+		BDF3A58B73856327A78DCBA9 /* Pods-YVSlideOutAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41B5C4B927FDC840289BD5F /* Pods-YVSlideOutAnimation_Tests-dummy.m */; };
+		BE10D240F2BC86CC6FAD5481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
+		BEA0C35A19AB5FFB69CE9737 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6017F57D42C0FB99C56EB7 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m */; };
+		CF7F1958F78E9AA6C0FDDBEA /* YVSlideOutAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E77B2F2D0AC669A14FBDED2 /* YVSlideOutAnimation.bundle */; };
+		D9CB49B74EEAAF5D9D307658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
+		DE7B5AF3A8B36B0AB9465945 /* YVSlideOutAnimation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 092CBBCB6070A348250407AD /* YVSlideOutAnimation.bundle */; };
+		EFB99DE81B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
+		EFB99DE91B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EFB99DED1B37D22B005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
+		EFB99DEE1B37D22E005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
+		EFB99DEF1B37D22F005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */; };
+		EFB99DF01B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EFB99DF11B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EFB99DF21B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EFB99DF31B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		EFB99DF41B37D237005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */; };
+		F26184FFC7D171C6DBB8CE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327789394D73400269887672 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F409F19A7466DCBE9297C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849F5F73C5E57C2AEAF08A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4DF6028734D16C0BC833EF;
+			remoteInfo = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation";
+		};
+		6C8368803BFC30E45BDD76D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849F5F73C5E57C2AEAF08A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D4A0760E8A4A05978F1B5D;
+			remoteInfo = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation";
+		};
+		B9BA90131FCA5BA04D836EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849F5F73C5E57C2AEAF08A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77008FEF4DB366D75F3C9601;
+			remoteInfo = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation";
+		};
+		E61D231FA389142375DB543E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1849F5F73C5E57C2AEAF08A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6B9330DDB0F21ED2056E31;
+			remoteInfo = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022F1BC59B4F77DEC92CB586 /* Pods-YVSlideOutAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		092CBBCB6070A348250407AD /* YVSlideOutAnimation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YVSlideOutAnimation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E77B2F2D0AC669A14FBDED2 /* YVSlideOutAnimation.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YVSlideOutAnimation.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		183145432828B161695138B2 /* Pods-YVSlideOutAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVSlideOutAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
+		1FAE005AE45F04320F47A57A /* Pods-YVSlideOutAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YVSlideOutAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22E4BF85496C09B892BE3C46 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h"; sourceTree = "<group>"; };
+		327789394D73400269887672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C2251A8DFFAAB3C2335B921 /* Pods-YVSlideOutAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVSlideOutAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		3C6017F57D42C0FB99C56EB7 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m"; sourceTree = "<group>"; };
+		5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig"; sourceTree = "<group>"; };
+		5C50C1671AEFB43F4D9182CD /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap"; sourceTree = "<group>"; };
+		5D4C828DB04919B8C73FBAB5 /* Pods-YVSlideOutAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YVSlideOutAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6103F70D1F542F88A644A90F /* Pods-YVSlideOutAnimation_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Example-environment.h"; sourceTree = "<group>"; };
+		6133D1804690B316416D8DF1 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.xcconfig"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.xcconfig"; sourceTree = "<group>"; };
+		67371ADA59B40879699D49D9 /* YVSlideOutAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YVSlideOutAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6914897ADE00D20FAF2322FF /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.xcconfig"; sourceTree = "<group>"; };
+		69C49073308F11F453303B95 /* Pods-YVSlideOutAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YVSlideOutAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		704C66C523261949D591AEB7 /* Pods-YVSlideOutAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CBB76B46F897F2C2C4381EB /* Pods-YVSlideOutAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		823AC4FA58932CC44B1B7691 /* Pods-YVSlideOutAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YVSlideOutAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83FECB2F544A92C9B9478390 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch"; sourceTree = "<group>"; };
+		8A9A2E44116D18BCC38C89F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B813EA1E8DE7A6BBA128913 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E59B9DAFA9C2C711F9E7083 /* Pods-YVSlideOutAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		8F87555F4887E247BC1675BF /* Pods-YVSlideOutAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVSlideOutAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		914A3F67AE2DEB26A1BE91C9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9902C9B1C7E98F8F753A1651 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.modulemap"; sourceTree = "<group>"; };
+		99652B9DF3C91589ADB11741 /* Pods-YVSlideOutAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVSlideOutAnimation_Example-resources.sh"; sourceTree = "<group>"; };
+		9A9A86B6B135EBFDEBA359A1 /* Pods-YVSlideOutAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVSlideOutAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AA4D2A44CA4E36995A43ABCC /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m"; sourceTree = "<group>"; };
+		B706D683515C27A1BAEC789D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h"; sourceTree = "<group>"; };
+		B71067D420372FAE71576620 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-prefix.pch"; sourceTree = "<group>"; };
+		BE1551E01872DB8A3143B4D6 /* Pods_YVSlideOutAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVSlideOutAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9571B66FBBC2751465C9C2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB6FF1DF68AF5FB9E319AFD /* Pods-YVSlideOutAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DC7FEEDD5D846D68D1C73613 /* Pods-YVSlideOutAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVSlideOutAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E41B5C4B927FDC840289BD5F /* Pods-YVSlideOutAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVSlideOutAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		E93238867B7EED87D35C3FF1 /* Pods_YVSlideOutAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVSlideOutAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA75654DD5F1908C7B6F458 /* Pods-YVSlideOutAnimation_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVSlideOutAnimation_Tests-environment.h"; sourceTree = "<group>"; };
+		EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig"; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig"; sourceTree = "<group>"; };
+		EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YVSlideOutAnimation.h"; sourceTree = "<group>"; };
+		EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YVSlideOutAnimation.m"; sourceTree = "<group>"; };
+		F73244067B3A9CDE01D33B20 /* YVSlideOutAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YVSlideOutAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958AD78B871866FA01785F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Info.plist"; sourceTree = "<group>"; };
+		FA739AA3E8D31C39E8EAB829 /* Pods-YVSlideOutAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVSlideOutAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		FD9214448DFBE184ECAC5084 /* Pods-YVSlideOutAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVSlideOutAnimation_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEE0B3EA343D1ECFF5ACCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3633705984A93A5A8CF36118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05BD67458561AB720FE3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17FAFFD8EC4F651D322D907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE10D240F2BC86CC6FAD5481 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94311B15EE3B536D6D1460B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC586ADB9CEABBB637DD8996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CB49B74EEAAF5D9D307658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDFCD57799DECDA256C1492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26184FFC7D171C6DBB8CE5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA8123F9DD14C2B263038D3 /* YVSlideOutAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				35898D67A81156D4E40055EB /* Pod */,
+				3B5E04BC421689BB0F8650CC /* Support Files */,
+			);
+			name = YVSlideOutAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		12955E09D7B21D1296568402 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DE8CF6D446E66DA5023806E /* Pods-YVSlideOutAnimation_Example */,
+				D860EA399B4C8DD56880CDC4 /* Pods-YVSlideOutAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		278D2EE934842AED2BDE7B69 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				327789394D73400269887672 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		35898D67A81156D4E40055EB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7A507387C96CFD6D6185BB9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		3B5E04BC421689BB0F8650CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B813EA1E8DE7A6BBA128913 /* Info.plist */,
+				F958AD78B871866FA01785F7 /* Info.plist */,
+				9902C9B1C7E98F8F753A1651 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.modulemap */,
+				6914897ADE00D20FAF2322FF /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.xcconfig */,
+				5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */,
+				3C6017F57D42C0FB99C56EB7 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m */,
+				B71067D420372FAE71576620 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-prefix.pch */,
+				22E4BF85496C09B892BE3C46 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h */,
+				5C50C1671AEFB43F4D9182CD /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap */,
+				6133D1804690B316416D8DF1 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.xcconfig */,
+				EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */,
+				AA4D2A44CA4E36995A43ABCC /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m */,
+				83FECB2F544A92C9B9478390 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch */,
+				B706D683515C27A1BAEC789D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation";
+			sourceTree = "<group>";
+		};
+		3E0C58EB486E5AFA95D650A7 = {
+			isa = PBXGroup;
+			children = (
+				914A3F67AE2DEB26A1BE91C9 /* Podfile */,
+				E5721B2EC54B877B71833E8E /* Development Pods */,
+				D542A990A5A21462F4B91CBD /* Frameworks */,
+				DBD8AEBD061AB770E487657B /* Products */,
+				12955E09D7B21D1296568402 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE8CF6D446E66DA5023806E /* Pods-YVSlideOutAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A2E44116D18BCC38C89F6 /* Info.plist */,
+				FD9214448DFBE184ECAC5084 /* Pods-YVSlideOutAnimation_Example.modulemap */,
+				823AC4FA58932CC44B1B7691 /* Pods-YVSlideOutAnimation_Example-acknowledgements.markdown */,
+				5D4C828DB04919B8C73FBAB5 /* Pods-YVSlideOutAnimation_Example-acknowledgements.plist */,
+				3C2251A8DFFAAB3C2335B921 /* Pods-YVSlideOutAnimation_Example-dummy.m */,
+				6103F70D1F542F88A644A90F /* Pods-YVSlideOutAnimation_Example-environment.h */,
+				8F87555F4887E247BC1675BF /* Pods-YVSlideOutAnimation_Example-frameworks.sh */,
+				99652B9DF3C91589ADB11741 /* Pods-YVSlideOutAnimation_Example-resources.sh */,
+				8E59B9DAFA9C2C711F9E7083 /* Pods-YVSlideOutAnimation_Example-umbrella.h */,
+				022F1BC59B4F77DEC92CB586 /* Pods-YVSlideOutAnimation_Example.debug.xcconfig */,
+				7CBB76B46F897F2C2C4381EB /* Pods-YVSlideOutAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-YVSlideOutAnimation_Example";
+			path = "Target Support Files/Pods-YVSlideOutAnimation_Example";
+			sourceTree = "<group>";
+		};
+		C7A507387C96CFD6D6185BB9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFB99DE61B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h */,
+				EFB99DE71B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D542A990A5A21462F4B91CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278D2EE934842AED2BDE7B69 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D860EA399B4C8DD56880CDC4 /* Pods-YVSlideOutAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9571B66FBBC2751465C9C2E /* Info.plist */,
+				FA739AA3E8D31C39E8EAB829 /* Pods-YVSlideOutAnimation_Tests.modulemap */,
+				1FAE005AE45F04320F47A57A /* Pods-YVSlideOutAnimation_Tests-acknowledgements.markdown */,
+				69C49073308F11F453303B95 /* Pods-YVSlideOutAnimation_Tests-acknowledgements.plist */,
+				E41B5C4B927FDC840289BD5F /* Pods-YVSlideOutAnimation_Tests-dummy.m */,
+				EDA75654DD5F1908C7B6F458 /* Pods-YVSlideOutAnimation_Tests-environment.h */,
+				9A9A86B6B135EBFDEBA359A1 /* Pods-YVSlideOutAnimation_Tests-frameworks.sh */,
+				183145432828B161695138B2 /* Pods-YVSlideOutAnimation_Tests-resources.sh */,
+				DAB6FF1DF68AF5FB9E319AFD /* Pods-YVSlideOutAnimation_Tests-umbrella.h */,
+				704C66C523261949D591AEB7 /* Pods-YVSlideOutAnimation_Tests.debug.xcconfig */,
+				DC7FEEDD5D846D68D1C73613 /* Pods-YVSlideOutAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-YVSlideOutAnimation_Tests";
+			path = "Target Support Files/Pods-YVSlideOutAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		DBD8AEBD061AB770E487657B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1551E01872DB8A3143B4D6 /* Pods_YVSlideOutAnimation_Example.framework */,
+				E93238867B7EED87D35C3FF1 /* Pods_YVSlideOutAnimation_Tests.framework */,
+				092CBBCB6070A348250407AD /* YVSlideOutAnimation.bundle */,
+				0E77B2F2D0AC669A14FBDED2 /* YVSlideOutAnimation.bundle */,
+				F73244067B3A9CDE01D33B20 /* YVSlideOutAnimation.framework */,
+				67371ADA59B40879699D49D9 /* YVSlideOutAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5721B2EC54B877B71833E8E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8123F9DD14C2B263038D3 /* YVSlideOutAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10D7DB949B3E8392900F70D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DE81B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				074DB60CA94B9E04DA7B6999 /* Pods-YVSlideOutAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA55F63A72F461AF080F686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DED1B37D22B005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				531D7ABBF83C030D8CDC9C61 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440A21CB11B19DC351E5BCC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DEF1B37D22F005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				516A74ED6F88477705453114 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925B4BEE9B05664B6375AC3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DEE1B37D22E005F3AB5 /* UIView+YVSlideOutAnimation.h in Headers */,
+				62C016950624281FE5586101 /* Pods-YVSlideOutAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14D4A0760E8A4A05978F1B5D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB949997A85188D6074562A /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation" */;
+			buildPhases = (
+				4F1527695AE581770C9D5FAE /* Sources */,
+				7DEE0B3EA343D1ECFF5ACCB2 /* Frameworks */,
+				F08CC3B6DAE41A467CDB19BD /* Resources */,
+				440A21CB11B19DC351E5BCC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DEBA06A100630114BA7CE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation";
+			productName = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation";
+			productReference = F73244067B3A9CDE01D33B20 /* YVSlideOutAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B4DF6028734D16C0BC833EF /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A88688A6E65B323C0863BB3 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation" */;
+			buildPhases = (
+				6438EA256373A485D46D9AD7 /* Sources */,
+				8B05BD67458561AB720FE3AC /* Frameworks */,
+				70DBD16AF2AF6F05EE516524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation";
+			productName = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation";
+			productReference = 092CBBCB6070A348250407AD /* YVSlideOutAnimation.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6206529973DE3A88A5A7E46A /* Pods-YVSlideOutAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21F6C8CADFCE78D2D851B84 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests" */;
+			buildPhases = (
+				36EA98FE5E37637A5855529B /* Sources */,
+				FFDFCD57799DECDA256C1492 /* Frameworks */,
+				925B4BEE9B05664B6375AC3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00869EBF8A2F4822CCE9CD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-YVSlideOutAnimation_Tests";
+			productName = "Pods-YVSlideOutAnimation_Tests";
+			productReference = E93238867B7EED87D35C3FF1 /* Pods_YVSlideOutAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77008FEF4DB366D75F3C9601 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA350F3B96261B52189D35F /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation" */;
+			buildPhases = (
+				00852B181B79D5AC61E5B024 /* Sources */,
+				B17FAFFD8EC4F651D322D907 /* Frameworks */,
+				8CDCA20AE48F252ADEA56845 /* Resources */,
+				3EA55F63A72F461AF080F686 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6722262D63EE4F70AB9EF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation";
+			productName = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation";
+			productReference = 67371ADA59B40879699D49D9 /* YVSlideOutAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E6B9330DDB0F21ED2056E31 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C7E53BCF3650A3E0900BD8 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation" */;
+			buildPhases = (
+				5AF9534E0DF57A593C634644 /* Sources */,
+				B94311B15EE3B536D6D1460B /* Frameworks */,
+				06C3C5B7665D6996375EC746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation";
+			productName = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation";
+			productReference = 0E77B2F2D0AC669A14FBDED2 /* YVSlideOutAnimation.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9593161990608946611D7211 /* Pods-YVSlideOutAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD601B22E59E18384172DF95 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example" */;
+			buildPhases = (
+				A4CB3559F85996A12B0D3543 /* Sources */,
+				DC586ADB9CEABBB637DD8996 /* Frameworks */,
+				10D7DB949B3E8392900F70D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1435BAC4E18ED4B2D8F4BFC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-YVSlideOutAnimation_Example";
+			productName = "Pods-YVSlideOutAnimation_Example";
+			productReference = BE1551E01872DB8A3143B4D6 /* Pods_YVSlideOutAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1849F5F73C5E57C2AEAF08A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2DC7C4DA1F650BEB5641E34F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E0C58EB486E5AFA95D650A7;
+			productRefGroup = DBD8AEBD061AB770E487657B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9593161990608946611D7211 /* Pods-YVSlideOutAnimation_Example */,
+				77008FEF4DB366D75F3C9601 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation */,
+				4B4DF6028734D16C0BC833EF /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation */,
+				6206529973DE3A88A5A7E46A /* Pods-YVSlideOutAnimation_Tests */,
+				14D4A0760E8A4A05978F1B5D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation */,
+				8E6B9330DDB0F21ED2056E31 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C3C5B7665D6996375EC746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DBD16AF2AF6F05EE516524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDCA20AE48F252ADEA56845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7B5AF3A8B36B0AB9465945 /* YVSlideOutAnimation.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08CC3B6DAE41A467CDB19BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7F1958F78E9AA6C0FDDBEA /* YVSlideOutAnimation.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00852B181B79D5AC61E5B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0C35A19AB5FFB69CE9737 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-dummy.m in Sources */,
+				EFB99DF11B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EA98FE5E37637A5855529B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF3A58B73856327A78DCBA9 /* Pods-YVSlideOutAnimation_Tests-dummy.m in Sources */,
+				EFB99DF21B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1527695AE581770C9D5FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888FE62B75A56E92D55EA02 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-dummy.m in Sources */,
+				EFB99DF31B37D236005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF9534E0DF57A593C634644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DF41B37D237005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6438EA256373A485D46D9AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB99DF01B37D235005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB3559F85996A12B0D3543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D55C0A5D08D63C5CB04DFA /* Pods-YVSlideOutAnimation_Example-dummy.m in Sources */,
+				EFB99DE91B37D1CE005F3AB5 /* UIView+YVSlideOutAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1435BAC4E18ED4B2D8F4BFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation";
+			target = 77008FEF4DB366D75F3C9601 /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation */;
+			targetProxy = B9BA90131FCA5BA04D836EC4 /* PBXContainerItemProxy */;
+		};
+		6B6722262D63EE4F70AB9EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation";
+			target = 4B4DF6028734D16C0BC833EF /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation */;
+			targetProxy = 5F409F19A7466DCBE9297C5F /* PBXContainerItemProxy */;
+		};
+		A00869EBF8A2F4822CCE9CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation";
+			target = 14D4A0760E8A4A05978F1B5D /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation */;
+			targetProxy = 6C8368803BFC30E45BDD76D1 /* PBXContainerItemProxy */;
+		};
+		F7DEBA06A100630114BA7CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation";
+			target = 8E6B9330DDB0F21ED2056E31 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation */;
+			targetProxy = E61D231FA389142375DB543E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05D3680A0D6E3DED1D135149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YVSlideOutAnimation_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1945C25ED26DE5308DF6F0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED219CBEAE92499544607BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022F1BC59B4F77DEC92CB586 /* Pods-YVSlideOutAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example/Pods-YVSlideOutAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YVSlideOutAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E8B1EA07A7754D686A0E85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EAE4025B15F28156379AF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F65F6808AB1D8CB462DE4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76DF6D2008550EA3D6D1555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89525F55F2F02FF5D0447521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YVSlideOutAnimation_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9421BBBF6DB79250A7EC947E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBB76B46F897F2C2C4381EB /* Pods-YVSlideOutAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example/Pods-YVSlideOutAnimation_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YVSlideOutAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A44E9FFFCF36EB1ABD98FBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YVSlideOutAnimation_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AE79513EF87AF64B7BFE9CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704C66C523261949D591AEB7 /* Pods-YVSlideOutAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests/Pods-YVSlideOutAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YVSlideOutAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B89207F305CDF95CBC873813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBC1699D655756BE452F59B /* Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation/Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8EA6CD5DB5B7D8699C84673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7FEEDD5D846D68D1C73613 /* Pods-YVSlideOutAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YVSlideOutAnimation_Tests/Pods-YVSlideOutAnimation_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YVSlideOutAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E34A0680AF4AF56344C0678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA4BBE3344C1DCBDF76F038 /* Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YVSlideOutAnimation_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YVSlideOutAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FB949997A85188D6074562A /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8B1EA07A7754D686A0E85D /* Debug */,
+				76DF6D2008550EA3D6D1555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C7E53BCF3650A3E0900BD8 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests-YVSlideOutAnimation-YVSlideOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34A0680AF4AF56344C0678B /* Debug */,
+				05D3680A0D6E3DED1D135149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A88688A6E65B323C0863BB3 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44E9FFFCF36EB1ABD98FBB7 /* Debug */,
+				89525F55F2F02FF5D0447521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC7C4DA1F650BEB5641E34F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAE4025B15F28156379AF84 /* Debug */,
+				1945C25ED26DE5308DF6F0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD601B22E59E18384172DF95 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED219CBEAE92499544607BD /* Debug */,
+				9421BBBF6DB79250A7EC947E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21F6C8CADFCE78D2D851B84 /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79513EF87AF64B7BFE9CE8 /* Debug */,
+				C8EA6CD5DB5B7D8699C84673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA350F3B96261B52189D35F /* Build configuration list for PBXNativeTarget "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89207F305CDF95CBC873813 /* Debug */,
+				6F65F6808AB1D8CB462DE4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1849F5F73C5E57C2AEAF08A4 /* Project object */;
+}
