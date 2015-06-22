@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YVSlideOutAnimation.svg?style=flat)](http://cocoapods.org/pods/YVSlideOutAnimation)
 [![Platform](https://img.shields.io/cocoapods/p/YVSlideOutAnimation.svg?style=flat)](http://cocoapods.org/pods/YVSlideOutAnimation)
 
+Simple UIView category for adding slide out animation. Inspired by animations used here: https://github.com/MartinRGB/GiftCard-iOS
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
