@@ -1,0 +1,14 @@
+PODS:
+  - YVSlideOutAnimation (0.1.0)
+
+DEPENDENCIES:
+  - YVSlideOutAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  YVSlideOutAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YVSlideOutAnimation: c682f273e822af4851aed4edf5faf66414f90da3
+
+COCOAPODS: 0.37.2
