@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B4DF6028734D16C0BC833EF"
+               BlueprintIdentifier = "AAE02EAE008414868B6A8742"
                BuildableName = "YVSlideOutAnimation.bundle"
                BlueprintName = "Pods-YVSlideOutAnimation_Example-YVSlideOutAnimation-YVSlideOutAnimation"
                ReferencedContainer = "container:Pods.xcodeproj">

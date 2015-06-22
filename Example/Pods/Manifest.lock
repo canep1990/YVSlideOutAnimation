@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YVSlideOutAnimation: 466430f678813a2df456ca988e7a56a3c9f75e16
+  YVSlideOutAnimation: c682f273e822af4851aed4edf5faf66414f90da3
 
 COCOAPODS: 0.37.2

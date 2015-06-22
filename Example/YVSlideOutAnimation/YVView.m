@@ -7,13 +7,14 @@
 //
 
 #import "YVView.h"
+#import <YVSlideOutAnimation/UIView+YVSlideOutAnimation.h>
 
 @implementation YVView
 
 - (void)awakeFromNib
 {
     self.subviewAnimationDelay = [NSNumber numberWithFloat:0.2];
-    [self yv_slideOutAnimationForAllSubviewsFromPosition:YVSlideOutAnimationPositionFromRightToLeft duration:0.3 delay:0.1 slidingOffset:50 reversedOrder:NO];
+    [self yv_slideOutAnimationForAllSubviewsFromPosition:YVSlideOutAnimationPositionFromRightToLeft duration:1 delay:0.1 slidingOffset:50 reversedOrder:NO];
 }
 
 @end
